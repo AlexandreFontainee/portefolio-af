@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0;
+    padding:0;
+    }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+.NavImg{
+    margin-left: 10%;
+}
+
+.ft{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Cont1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Cont2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    
+}
+
+.imgnavvv{
+    width: 100ù;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.ere{
+    color: white;
+    text-decoration:none;
+}
+
+.About{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.projet{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.contact{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.linkImg{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.gitImg{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.mainMidBox{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 650px;
+
+}
+
+.rightBox{
+    width: 50%;
+    height: 650px;
+
+}
+
+.imgMRbox{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.textDL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.t1{
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.t2{
+    font-size: 38px;
+    margin: 0;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.t3{
+    font-size: 38px;
+    margin: 0;
+    margin-left: 95px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ndMidBox{
+    width: 100%;
+    background-color: #F7F8FB;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.ProjetBox{
+    height: 50px;
+}
+
+.Mp{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.projectCard{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.projectCard:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.cardLine1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardLine2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.projectImg{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* partie barres */
+
+.langages{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.p_l{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.midBoxLangage{
+    background-color:#EFEFEF ;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 10px 25px;
+    padding-bottom: 150px;
+}
+
+.boxGlobalBarres{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+.nameLangage{
+    font-size: 22px;
+}
+
+/*  html barre*/
+.progressbar-wrapper_html {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_html {
+    background-color: #F4950B;
+    color: white;
+    padding: 8px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar[title="downloaded"] {
+    background-color: #F4950B;
+    height: 20px;
+ }
+   
+ .html {
+   width: 90%;
+ }
+
+ /*  css*/
+
+.progressbar-wrapper_css {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_css {
+    background-color: #0b8bf4ea;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar-css[title="downloaded_css"] {
+    background-color: #0b8bf4;
+ }
+   
+ .css {
+   width: 80%;
+   height: 10px;
+ }
+
+ /*  javascript*/
+
+.progressbar-wrapper_js {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_js {
+    background-color: #0b22f4;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar_js[title="downloaded_js"] {
+    background-color: #e4f40b;
+ }
+   
+ .js {
+   width: 75%;
+   height: 10px;
+ }
+
+  /*  Vue*/
+
+.progressbar-wrapper_vue {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_vue {
+    background-color: #0b22f4;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar_vue[title="downloaded_vue"] {
+    background-color: #0bf43d;
+ }
+   
+ .vue {
+   width: 65%;
+   height: 10px;
+ }
+
+
+ /*  Back langage*/
+
+
+   /*  Node.js*/
+
+.progressbar-wrapper_node {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_node{
+    background-color: #0d992bfd;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar_node[title="downloaded_vue"] {
+    background-color: #0bf43d93;
+ }
+   
+ .node {
+   width: 80%;
+   height: 10px;
+ }
+
+
+    /*  express*/
+
+.progressbar-wrapper_exp {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_exp{
+    background-color: #e3f11afd;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar_exp[title="downloaded_vue"] {
+    background-color: #0bf43d93;
+ }
+   
+ .exp {
+   width: 90%;
+   height: 10px;
+ }
+
+     /*  mongo*/
+
+.progressbar-wrapper_mongo {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .progressbar_mongo{
+    background-color: #0fe43dfd;
+    color: white;
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+ 
+ .progressbar_exp[title="downloaded_vue"] {
+    background-color: #0bf43d93;
+ }
+   
+ .mongo {
+   width: 90%;
+   height: 10px;
+ }
+
+ .adress{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+ }
+
+ .btn_contact{
+
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px ;
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn_c{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ty{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.tyImg{
+    height: 150px;
+    width: 180px;
+}
+
+.main_container_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+    background-color: #F7F8FB;
+}
+
+.EmailAdress{
+margin-left: 25%;
+margin-right: 25%;
+align-items: center;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.adre{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 42px;
+}
+
+.num{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+}
+
+
+/* version mobile */ 
+
+@media screen and (min-width: 325px) and (max-width:425px) {
+    
+    .mainMidBox{
+        height: 700px;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .leftBox{
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+    .rightBox{
+        display: none;
+    }
+}
